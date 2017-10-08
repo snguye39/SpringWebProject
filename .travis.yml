@@ -1,6 +1,8 @@
 language: java
 sudo: false
-script: ./mvn test
+script: ./mvnw test
+- mvn testw --show-version --errors --batch-mode -Prun-its clean verify
 
 install:
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
