@@ -1,6 +1,6 @@
 language: java
 sudo: false
-script: ./mvnw test
+script: ./mvn test
 - mvn testw --show-version --errors --batch-mode -Prun-its clean verify
 
 install:
