@@ -1,0 +1,11 @@
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Repository/UserRepository.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Entity/User.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Configurations/RepositoryConfiguration.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Services/UserService.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/MsuBannerApplication.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Configurations/SecurityConfiguration.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Controllers/UserController.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Services/UserServiceImpl.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Controllers/HomeController.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Loader/UserLoader.java
+/Users/sangnguyen/Desktop/RebelScrumBannerProject/src/main/java/com/rebelscrum/MSUBanner/Application/Configurations/WebConfiguration.java
