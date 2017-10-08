@@ -1,0 +1,5 @@
+language: java
+sudo: false
+script: ./mvnw test
+
+g
