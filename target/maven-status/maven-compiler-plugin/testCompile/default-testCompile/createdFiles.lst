@@ -1,2 +1,8 @@
 com/rebelscrum/MSUBanner/Application/MsuBannerApplicationTests.class
+com/rebelscrum/MSUBanner/Application/Entity/GlobalsTest.class
+com/rebelscrum/MSUBanner/Application/Entity/ProfessorTest.class
+com/rebelscrum/MSUBanner/Application/Entity/SectionTest.class
+com/rebelscrum/MSUBanner/Application/Entity/StudentTest.class
 com/rebelscrum/MSUBanner/Application/UserRepositoryTest.class
+com/rebelscrum/MSUBanner/Application/Entity/UserTest.class
+com/rebelscrum/MSUBanner/Application/Entity/CourseTest.class

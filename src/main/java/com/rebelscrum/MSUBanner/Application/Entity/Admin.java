@@ -1,74 +1,102 @@
 package com.rebelscrum.MSUBanner.Application.Entity;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
 
-
+/**Admin is an extension of User.
+ */
 @Entity
-public class Admin extends User{
-    @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private Integer id;
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String adminType;
+public class Admin extends User {
+    /** department string.
+     */
     private String department;
+
+    /** password string.
+     */
     private String password;
 
-
+    /**correctly executed method.
+     *@return FirstName
+     */
     public String getFirstName() {
-        return firstName;
+        return super.getFirstName();
     }
+
+    /**correctly executed method.
+     * @param firstName
+     */
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        super.setFirstName(firstName);
     }
 
+    /**correctly executed method.
+     *@return lastName
+     */
     public String getLastName() {
-        return lastName;
+        return super.getLastName();
     }
 
+    /**correctly executed method.
+     *@paramlastName
+     */
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        super.setLastName(lastName);
     }
 
-    public String getEmail() {
-        return email;
+    /**correctly executed method.
+     * @return email
+     */
+    public  String getEmail() {
+        return super.getEmail();
     }
-
+    /**correctly executed method.
+     *@param email
+     */
     public void setEmail(String email) {
-        this.email = email;
+        super.setEmail(email); }
+    /**correctly executed method.
+     * @return id
+     */
+    public Integer getId() {
+        return super.getId();
+    }
+    /**correctly executed method.
+     */
+    public void setUserType() {
+        super.setUserType("Administrator"); }
+
+    /**correctly executed method.
+     *@return UserType
+     */
+    public String getUserType() {
+        return super.getUserType();
     }
 
-    public Integer getId(){
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-
-    public String getAdminType() {
-        return adminType;
-    }
-    public void setAdminType(String adminType) {
-        this.adminType = adminType;
-    }
-
-
+    /**correctly executed method.
+     *@return department
+     */
     public String getDepartment() {
         return department;
     }
 
+    /**correctly executed method.
+     *@param department
+     */
     public void setDepartment(String department) {
         this.department = department;
     }
 
+    /**correctly executed method.
+     *@return password
+     */
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {this.password = password;}
+    /**correctly executed method.
+     *@param password
+     */
+    public void setPassword(String password) {
+        this.password = password; }
 
 }
 

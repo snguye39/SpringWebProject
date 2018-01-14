@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.rebelscrum.MSUBanner.Application.Entity.SectionTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.rebelscrum.MSUBanner.Application.Entity.SectionTest
+getProfessor(com.rebelscrum.MSUBanner.Application.Entity.SectionTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.rebelscrum.MSUBanner.Application.Entity.Section.getProfessor(Section.java:30)
+	at com.rebelscrum.MSUBanner.Application.Entity.SectionTest.getProfessor(SectionTest.java:43)
+
+setCourse(com.rebelscrum.MSUBanner.Application.Entity.SectionTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.rebelscrum.MSUBanner.Application.Entity.Section.getCourse(Section.java:26)
+	at com.rebelscrum.MSUBanner.Application.Entity.SectionTest.setCourse(SectionTest.java:35)
+
+getCourse(com.rebelscrum.MSUBanner.Application.Entity.SectionTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.rebelscrum.MSUBanner.Application.Entity.Section.getCourse(Section.java:26)
+	at com.rebelscrum.MSUBanner.Application.Entity.SectionTest.getCourse(SectionTest.java:27)
+
+setProfessor(com.rebelscrum.MSUBanner.Application.Entity.SectionTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.rebelscrum.MSUBanner.Application.Entity.Section.getProfessor(Section.java:30)
+	at com.rebelscrum.MSUBanner.Application.Entity.SectionTest.setProfessor(SectionTest.java:51)
+

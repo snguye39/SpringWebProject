@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest
+setUserType(com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: This test should pass when there is no User-Type expected null, but was:<Professor>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotNull(Assert.java:755)
+	at org.junit.Assert.assertNull(Assert.java:737)
+	at com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest.setUserType(ProfessorTest.java:67)
+
+getUserType(com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: This test should pass when there is no User-Type expected null, but was:<Professor>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotNull(Assert.java:755)
+	at org.junit.Assert.assertNull(Assert.java:737)
+	at com.rebelscrum.MSUBanner.Application.Entity.ProfessorTest.getUserType(ProfessorTest.java:59)
+
